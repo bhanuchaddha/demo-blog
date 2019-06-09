@@ -1,0 +1,52 @@
+baseurl         = ""
+theme           = "casper-two"
+languageCode    = "en-US"
+disqusShortname = ""
+paginate        = 6
+#SectionPagesMenu = "main"
+
+[params]
+  title       = "<Your Name>'s blog"
+  subtitle    = "Blog | Tutorial"
+
+  cover       = ""
+  description = "<Your Name>'s blog"
+  metaDescription = ""
+  googleAnalytics = ""
+  customCSS = []
+  RSSLink = ""
+
+  twitterName = "<Your twitter username>"
+  fbName = "<Your fb username>"
+  githubName = "<Your github username>"
+  linkedinName = "<Your linkedin username>"
+  # mediumName = "<Your medium username>" // disabled medium link
+
+  logo = ""
+  orgName = "EM"
+  orgWebsite = ""
+  orgDescription = ""
+
+  author = "EM"
+  authorAvatar = ""
+  authorLocation = "<Your Location>"
+  authorWebsite = ""
+  authorDescription = ""
+
+  pageNotFoundTitle = "404 - Page not found"
+
+  #casper or caspertwo
+  singleViewStyle = "casper"
+
+[permalinks]
+  post = "/:slug/"
+
+[[menu.main]]
+  name = "Blog"
+  url = "/"
+  weight = 200
+
+[[menu.main]]
+  name = "Tutorial"
+  url = "/categories/tutorial/"
+  weight = 5
